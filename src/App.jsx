@@ -4,7 +4,7 @@ import { TopNavigationBar } from "./components/header/topNavigationBar/topNaviga
 import Home from "./pages/home";
 import Product from "./pages/product";
 import Basket from "./pages/basket";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 function App() {
   const [products, setProducts] = useState([]);
